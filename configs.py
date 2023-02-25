@@ -12,7 +12,7 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1001711211283))
     BOT_USERNAME = os.environ.get("Arymovies_bot")
     BOT_OWNER = int(os.environ.get("5079629749")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Aryan6969:Aryan6969@cluster0.krhmwhe.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL" , "mongodb+srv://Aryan6969:Aryan6969@cluster0.krhmwhe.mongodb.net/?retryWrites=true&w=majority")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
     
